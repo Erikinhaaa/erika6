@@ -1,0 +1,9 @@
+body {
+    position: absolute;
+width: 1440px;
+height: 1024px;
+left: 15.5px;
+top: 5.5px;
+
+background: linear-gradient(180deg, #FE0303 -0.54%, #D106D6 56.75%, #D412F3 96.86%);
+}
