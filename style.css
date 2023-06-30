@@ -9,7 +9,49 @@ top: 5.5px;
 
 background: linear-gradient(180deg, #FE0303 -0.54%, #D106D6 56.75%, #D412F3 96.86%);
 }
+.cabecalho{
+    width: 1440px;
+    height: 227px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #191A15 0%, #FE0303 100%);
 
-.cabeçalho-imagem{
-     width:  20
+}
+.cabecalho-imagem{
+    width: 333.229px;
+height: 261.871px;
+transform: rotate(0.035deg);
+flex-shrink: 0;
+}
+.cabecalho-texto1{
+    color: #FFF;
+    font-size: 36px;
+    font-family: Kapakana;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cabecalho-texto2{
+    display: flex;
+width: 463px;
+height: 65px;
+flex-direction: column;
+flex-shrink: 0;
+font-size: 64px;
+font-family: Grand Hotel;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.cabecalho-texto3{
+    display: flex;
+width: 931px;
+height: 33px;
+flex-direction: column;
+flex-shrink: 0;
+color: #110E0E;
+font-size: 24px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
