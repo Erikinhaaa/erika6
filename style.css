@@ -1,57 +1,222 @@
-body {
-    position: absolute;
-width: 1440px;
-height: 1024px;
-left: 15.5px;
-top: 5.5px;
-
-.cabeçalho{
-
-background: linear-gradient(180deg, #FE0303 -0.54%, #D106D6 56.75%, #D412F3 96.86%);
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
 }
-.cabecalho{
-    width: 1440px;
-    height: 227px;
-    flex-shrink: 0;
-    background: linear-gradient(180deg, #191A15 0%, #FE0303 100%);
-
+.desktop-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(17, 16, 16, 1) 0%,
+    rgba(235, 54, 54, 0) 100%
+  );
+  width: 1440px;
+  height: 982px;
+  position: relative;
+  overflow: hidden;
 }
-.cabecalho-imagem{
-    width: 333.229px;
-height: 261.871px;
-transform: rotate(0.035deg);
-flex-shrink: 0;
+.rectangle-11 {
+  background: linear-gradient(
+    180deg,
+    rgba(25, 26, 21, 1) 0%,
+    rgba(254, 3, 3, 1) 100%
+  );
+  width: 1440px;
+  height: 227px;
+  position: absolute;
+  left: -2px;
+  top: 0px;
 }
-.cabecalho-texto1{
-    color: #FFF;
-    font-size: 36px;
-    font-family: Kapakana;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.rectangle-1 {
+  position: absolute;
+  left: 0px;
+  top: 227px;
+  overflow: visible;
 }
-.cabecalho-texto2{
-    display: flex;
-width: 463px;
-height: 65px;
-flex-direction: column;
-flex-shrink: 0;
-font-size: 64px;
-font-family: Grand Hotel;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.holla-sou-a-erika-e-tenho-16-anos-um-dos-meus-talentos-tocar-instrumentos {
+  color: #110e0e;
+  text-align: left;
+  font: 400 24px "Inter", sans-serif;
+  position: absolute;
+  left: 338px;
+  top: 161px;
+  width: 931px;
+  height: 33px;
 }
-.cabecalho-texto3{
-    display: flex;
-width: 931px;
-height: 33px;
-flex-direction: column;
-flex-shrink: 0;
-color: #110E0E;
-font-size: 24px;
-font-family: Inter;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.rectangle-3 {
+  width: 333.23px;
+  height: 261.87px;
+  position: absolute;
+  left: 0.16px;
+  top: 24px;
+  transform-origin: 0 0;
+  transform: rotate(0.035deg) scale(1, 1);
+}
+.coisas-que-gosto {
+  color: linear-gradient(
+    180deg,
+    rgba(175, 90, 197, 1) 20.3125%,
+    rgba(255, 255, 245, 0.99) 38.54166567325592%,
+    rgba(25, 26, 21, 1) 50%,
+    rgba(175, 90, 197, 1) 84.89583134651184%
+  );
+  text-align: left;
+  font: 400 96px "Kapakana", sans-serif;
+  position: absolute;
+  left: 501px;
+  top: 227px;
+  width: 578px;
+  height: 118px;
+}
+.rectangle-10 {
+  background: linear-gradient(
+    180deg,
+    rgba(25, 26, 21, 1) 0%,
+    rgba(25, 26, 21, 0) 100%
+  );
+  width: 1440px;
+  height: 521px;
+  position: absolute;
+  left: 0px;
+  top: 982px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.ellipse-1 {
+  border-radius: 50%;
+  width: 219px;
+  height: 212px;
+  position: absolute;
+  left: 1006px;
+  top: 412px;
+}
+.ellipse-3 {
+  border-radius: 50%;
+  width: 220px;
+  height: 213px;
+  position: absolute;
+  left: 177px;
+  top: 411px;
+}
+.ellipse-4 {
+  border-radius: 50%;
+  width: 221px;
+  height: 215px;
+  position: absolute;
+  left: 1006px;
+  top: 715px;
+}
+.ellipse-6 {
+  border-radius: 50%;
+  width: 215px;
+  height: 215px;
+  position: absolute;
+  left: 610px;
+  top: 715px;
+}
+.ellipse-5 {
+  border-radius: 50%;
+  width: 225px;
+  height: 207px;
+  position: absolute;
+  left: 177px;
+  top: 719px;
+}
+.doutores-da-alegria {
+  color: #ffffff;
+  text-align: left;
+  font: 400 24px "Kalam", sans-serif;
+  position: absolute;
+  left: 184px;
+  top: 378px;
+  width: 340px;
+  height: 51px;
+}
+.livro {
+  color: #ffffff;
+  text-align: left;
+  font: 400 24px "Kalam", sans-serif;
+  position: absolute;
+  left: 701px;
+  top: 371px;
+  width: 226px;
+  height: 65px;
+}
+.instrumentos {
+  color: #ffffff;
+  text-align: left;
+  font: 400 24px "Kalam", sans-serif;
+  position: absolute;
+  left: 1056px;
+  top: 378px;
+  width: 245px;
+  height: 39px;
+}
+.comida {
+  color: #ffffff;
+  text-align: left;
+  font: 400 24px "Kalam", sans-serif;
+  position: absolute;
+  left: 252px;
+  top: 681px;
+  width: 203px;
+  height: 41px;
+}
+.dorama {
+  color: #ffffff;
+  text-align: left;
+  font: 400 24px "Kalam", sans-serif;
+  position: absolute;
+  left: 682px;
+  top: 677px;
+  width: 184px;
+  height: 50px;
+}
+.girl-group {
+  color: #ffffff;
+  text-align: left;
+  font: 400 24px "Kalam", sans-serif;
+  position: absolute;
+  left: 1079px;
+  top: 681px;
+  width: 177px;
+  height: 49px;
+}
+.essa-sou-eu {
+  color: linear-gradient(
+    180deg,
+    rgba(18, 16, 16, 1) 99.98999834060669%,
+    rgba(241, 22, 22, 0) 100%
+  );
+  text-align: left;
+  font: 400 64px "Grand Hotel", sans-serif;
+  position: absolute;
+  left: 593px;
+  top: 72px;
+  width: 463px;
+  height: 65px;
+}
+.deus-em-todo-tempo-bom-e-todo-tempo-deus-bom {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Itim", sans-serif;
+  position: absolute;
+  left: 543px;
+  top: 946px;
+  width: 387px;
+  height: 44px;
+}
+.ellipse-7 {
+  border-radius: 50%;
+  width: 211px;
+  height: 217px;
+  position: absolute;
+  left: 614px;
+  top: 412px;
+}
+.c-vico-trilha {
+  color: #ffffff;
+  text-align: left;
+  font: 400 36px "Kapakana", sans-serif;
+  position: absolute;
+  left: 1217px;
+  top: 16px;
 }
