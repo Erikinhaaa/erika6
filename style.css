@@ -27,7 +27,7 @@
 }
 .rectangle-1 {
   position: absolute;
-  left: 0px;
+  left: -2px;
   top: 227px;
   overflow: visible;
 }
@@ -75,8 +75,8 @@
   width: 1440px;
   height: 521px;
   position: absolute;
-  left: 0px;
-  top: 982px;
+  left: -2px;
+  top: 987px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, -1);
 }
@@ -88,7 +88,7 @@
   left: 1006px;
   top: 412px;
 }
-.ellipse-3 {
+.seire {
   border-radius: 50%;
   width: 220px;
   height: 213px;
